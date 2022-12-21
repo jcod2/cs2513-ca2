@@ -19,6 +19,7 @@ class MyGame(object):
         self._playerView = pyg.image.load("player.png")
         self._playerModel = Player(self._width/2 - 16, self._height - 64, self._width - 16, 15)
 
+        # invader list should be implemented as matrix and not just a long list, fix later?
         self._invaderList = []
         self._missileList = []
 
